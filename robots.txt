@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+# http://code.google.com/web/controlcrawlindex/
+
+# SET ALLOW FILES 
+# Allow: /
+
+# SET DISALLOW FILES 
+# Disallow: /
+
+
+User-agent: *

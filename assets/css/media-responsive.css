@@ -1,0 +1,72 @@
+/*!
+ * CSS Modification by Mark Rivera : imarkdesigns@gmail.com, 2013
+ * Copyright by Twitter Bootstrap
+ *
+ * MEDIA RESPONSIVE
+ */
+
+@media (max-width: 1200px) {
+
+	header, footer { width: 960px; }
+	article { padding: 0 10px; }
+	article { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+	header #hdr-logo:before { content: "Max-Width of 1200px Viewport" }
+
+}
+/* END OF 1200 VIEWPORT */
+
+@media (max-width: 1024px) {
+
+	header, footer { width: 768px; }
+	article { padding: 0 10px; }
+	article { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+	.wrap.header { height: auto; min-height: 100px; }
+	.wrap.header nav { clear: both; position: relative; top: auto; right: auto; width: 100%; }
+	.wrap.header nav .nav { margin-bottom: 5px; }
+
+	header #hdr-logo:before { content: "Max-Width of 1024px Viewport" }
+
+}
+/* END OF IPAD VIEWPORT */
+
+@media (max-width: 768px) {
+
+	header, footer { width: 600px; }
+	article { padding: 0 10px; }
+	article { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+	.wrap.header { height: auto; min-height: 100px; }
+	.wrap.header nav { clear: both; position: relative; top: auto; right: auto; width: 100%; }
+	.wrap.header nav .nav { margin-bottom: 5px; }
+
+	header #hdr-logo:before { content: "Max-Width of 768px Viewport" }
+
+}
+/* END OF IPAD VIEWPORT */
+
+@media (max-width: 640px) {
+
+	header, footer { width: inherit; }
+	article { padding: 0 10px; }
+	article { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+	header nav { display: none; }
+
+	header #hdr-logo { float: none; display: block; font-size: 12px; width: 220px; margin: 5px auto !important; }
+	header #hdr-logo:before { content: "Max-Width of 640px Viewport" }
+
+	#container section p { font-size: 13px; line-height: normal; }
+	#container section img { display: none; }
+	#container section h1 { font-size: 34px; margin-bottom: 10px; box-shadow: none; }
+	#container section h1 small { line-height: normal; }
+
+	#container .hero-unit { margin-bottom: 0; }
+
+	.responsive-menu { position: absolute; top: 0px; left: 5px; display: block !important; background: #3875D7; background-size: 24px; width: 32px; height: 32px; }
+	.responsive-menu { background-image: url(../svg/list-white.svg); background-position: center; background-repeat: no-repeat; }
+}
+/* END OF MOBILE VIEWPORT */
+
+ 
